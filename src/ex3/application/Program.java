@@ -37,11 +37,11 @@ public class Program {
          }
 
          for(Candidate c : candidateMap.keySet()) {
-            
+            System.out.println(c);
          }
 
       } catch (IOException e) {
-         System.err.print("Error: " + e.getMessage());
+         System.err.print("Error:" + e.getMessage());
       }
 
 

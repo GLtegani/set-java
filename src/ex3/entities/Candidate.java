@@ -36,5 +36,8 @@ public class Candidate {
       return Objects.hashCode(getName());
    }
 
-
+   @Override
+   public String toString() {
+      return this.getName() + ": " + this.getVotes();
+   }
 }
